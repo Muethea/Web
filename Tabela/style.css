@@ -1,0 +1,36 @@
+/*Estilizando Tabela*/
+
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    width: 500px;
+    
+ 
+}
+
+th, td{
+   
+    
+  padding: 7px;
+}
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+tr.alternado{
+    background-color: #efefef;
+}
+
+tr:hover{
+  
+    background: #c3e6e5;
+}
+.numeros, .preco{
+    text-align: right;
+}
